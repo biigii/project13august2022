@@ -2,21 +2,25 @@
   margin: 0;
 }
 
-header {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+div {
+  background-color: rgb(227, 231, 227);
 }
 
-nav {
-  width: 400px;
-  display: flex;
-  justify-content: start;
-  gap: 20px;
-}
+ /* {
+ display: flex;
+ flex-direction: column;
+} */
 
 section {
-  display: flex;
+  height: 100vh;
+  display: grid;
+  /* fr */
+  gap: 5px;
+  /* row-gap: 1px;
+  column-gap: 5px; */
+  /* grid-auto-flow: column; */
+    grid-template-columns: 1fr 3fr 1fr;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 100px 1fr 100px; */
 }
