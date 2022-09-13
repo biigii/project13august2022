@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav {
+  width: 400px;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+section {
+  display: flex;
+}
